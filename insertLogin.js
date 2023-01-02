@@ -1,0 +1,2 @@
+$('head').append('<meta http-equiv="Content-Security-Policy" content="default-src * \'unsafe-inline\';">')
+$('.global-header-actions').append('<a role="button" tabindex="0" class="btn btn--transparent" onClick="location=`f1mv://f1tv/signin/by-cookie?cookies=${encodeURIComponent(document.cookie)}`"><span class="user-name" role="region" aria-label="User name">SIGN INTO MULTIVIEWER</span></a>')

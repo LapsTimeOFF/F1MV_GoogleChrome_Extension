@@ -8,5 +8,6 @@
     "background": {
         "service_worker": "background.js"
     },
-    "permissions": ["tabs"]
+    "permissions": ["tabs", "scripting"],
+    "host_permissions": ["https://f1tv.formula1.com/*"]
 }
